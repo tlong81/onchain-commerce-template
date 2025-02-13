@@ -67,7 +67,7 @@ export default function OnchainStoreCart({
   }, [setShowModal]);
 
   return (
-    <div className="-mx-[50vw] fixed right-1/2 bottom-0 left-1/2 w-screen border-gray-200 border-t bg-[white] z-10">
+    <div className="-mx-[50vw] fixed right-1/2 bottom-0 left-1/2 w-screen border-gray-200 border-t bg-[white]">
       {showModal && <OnchainStoreModal closeModal={closeModal} />}
       <div className="mx-auto max-w-5xl ">
         <div className="flex flex-col items-start justify-between py-4 md:flex-row md:items-center">
