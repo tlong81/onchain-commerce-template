@@ -77,7 +77,7 @@ export default function OnchainStoreCart({
               href="https://www.coinbase.com/legal/privacy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 pt-1 text-[8px]"
+              className='pt-1 text-[8px] text-gray-600 hover:text-gray-900'
             >
               Privacy Policy
             </a>
