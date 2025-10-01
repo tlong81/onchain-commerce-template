@@ -71,11 +71,19 @@ export default function OnchainStoreCart({
       {showModal && <OnchainStoreModal closeModal={closeModal} />}
       <div className="mx-auto max-w-5xl ">
         <div className="flex flex-col items-start justify-between py-4 md:flex-row md:items-center">
-          <span className="mb-2 hidden px-4 text-xs sm:flex md:mb-0 md:w-1/3 lg:px-6">
-            Built with OnchainKit
-          </span>
+          <div className="mb-2 hidden flex-col px-4 text-xs sm:flex md:mb-0 md:w-1/3 lg:px-6">
+            <span>Built with OnchainKit</span>
+            <a
+              href="https://www.coinbase.com/legal/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="pt-1 text-[8px] text-gray-600 hover:text-gray-900"
+            >
+              Privacy Policy
+            </a>
+          </div>
           <div className="flex w-full grow flex-col items-center justify-between gap-2 px-4 sm:flex-row sm:gap-0 md:w-auto lg:px-6">
-            <h2 className="font-bold text-lg md:w-11/12 ">
+            <h2 className="font-bold text-lg md:w-11/12">
               TOTAL {totalSum.toFixed(2)} USDC
             </h2>
             <div className="w-64">
